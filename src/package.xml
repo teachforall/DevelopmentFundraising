@@ -47,6 +47,10 @@
         <name>Layout</name>
     </types>
 	<types>
+        <members>*</members>
+        <name>Profile</name>
+    </types>
+	<types>
 		<members>Account.Corporate</members>
         <members>Account.Foundation</members>
         <members>Account.Government</members>
