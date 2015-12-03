@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>Opportunity.Donation Process</members>
+        <name>BusinessProcess</name>
+    </types>
+	<types>
+        <members>Development_Fundraising</members>
+        <name>CustomApplication</name>
+    </types>
+	<types>
         <members>Account.Account_Number__c</members>
         <members>Account.Type</members>
+        <members>Campaign.Status</members>
+        <members>Campaign.Type</members>
+        <members>Contact.LeadSource</members>
+        <members>Opportunity.StageName</members>
+		<members>Opportunity.LeadSource</members>
+		<members>Opportunity.Type</members>
         <members>npe01__OppPayment__c.npe01__Payment_Method__c</members>
         <members>npe03__Recurring_Donation__c.npe03__Open_Ended_Status__c</members>
         <members>npe5__Affiliation__c.npe5__Status__c</members>
         <name>CustomField</name>
+    </types>
+	<types>
+        <members>Account-en_US</members>
+        <members>Opportunity-en_US</members>
+        <name>CustomObjectTranslation</name>
     </types>
     <types>
         <members>Account-npsp__Household Layout</members>
@@ -18,11 +37,20 @@
         <members>Contact-Individual Donor</members>
         <members>Contact-Internal Staff</members>
         <members>Contact-Organization Contact</members>
+        <members>Opportunity-Donor Layout</members>
+        <members>Opportunity-Lead Layout</members>
         <members>Opportunity-Opportunity Layout</members>
+        <members>Opportunity-Prospect Layout</members>
         <members>npe01__OppPayment__c-npe01__Payment Layout</members>
         <members>npe03__Recurring_Donation__c-npe03__Recurring Donation Layout</members>
         <members>npe5__Affiliation__c-npe5__Affiliation Layout</members>
         <name>Layout</name>
+    </types>
+	<types>
+        <members>Opportunity.Donor</members>
+        <members>Opportunity.Lead</members>
+        <members>Opportunity.Prospect</members>
+        <name>RecordType</name>
     </types>
     <version>35.0</version>
 </Package>
