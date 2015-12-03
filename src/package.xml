@@ -47,6 +47,13 @@
         <name>Layout</name>
     </types>
 	<types>
+		<members>Account.Corporate</members>
+        <members>Account.Foundation</members>
+        <members>Account.Government</members>
+        <members>Account.Organization</members>
+        <members>Contact.Individual_Donor</members>
+        <members>Contact.Internal_Staff</members>
+        <members>Contact.Organization_Contact</members>
         <members>Opportunity.Donor</members>
         <members>Opportunity.Lead</members>
         <members>Opportunity.Prospect</members>
